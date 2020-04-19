@@ -1,3 +1,4 @@
+![Dark ice theme preview minimal audacity dark flat](https://raw.githubusercontent.com/TheRockyDoo/audacity-themes/master/previews/logo.png)
 # Audacity themes
 by [noko](https://gumroad.com/noko)
 # Choose and download
