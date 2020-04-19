@@ -11,7 +11,7 @@ A minimal dark theme for Audacity 2.3+
 
 ![Dark ice theme preview](https://raw.githubusercontent.com/TheRockyDoo/audacity-themes/master/previews/dark_ice.png)
 
-### Audition
+### [Audition](http://gum.co/audacityaudition) ($3)
 Theme based on Adobe Audition look
 
 ![Audition preview](https://raw.githubusercontent.com/TheRockyDoo/audacity-themes/master/previews/audition.png)
