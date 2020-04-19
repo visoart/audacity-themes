@@ -1,6 +1,6 @@
 [![](http://example.com/path/image)](#)
 <a href="#"><img src="https://raw.githubusercontent.com/TheRockyDoo/audacity-themes/master/previews/logo.png" /></a>
-![Logo](# "Logo")
+![](# "Logo")
 # Audacity themes
 by [noko](https://gumroad.com/noko)
 # Choose and download
