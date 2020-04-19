@@ -1,5 +1,5 @@
 # Audacity themes
-by [Rdo](http://be.net/norbertkowalczyk)
+by [noko](https://gumroad.com/noko)
 
 ## Installation
 1. Drop chosen ImageCache.png to `%appdata%/audacity/Theme` folder (Windows) or `~/.audacity-data/Theme` (Linux) or `~/Library/Application Support/audacity/Theme` (Mac),
