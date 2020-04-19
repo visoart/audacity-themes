@@ -3,7 +3,6 @@
 ![](# "Logo")
 # Audacity themes
 by [noko](https://gumroad.com/noko)
-# Choose and download
 ## [Dark ice](https://github.com/TheRockyDoo/audacity-themes/tree/master/dark-ice)
 A minimal dark theme for Audacity 2.3+
 
