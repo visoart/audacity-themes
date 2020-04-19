@@ -1,5 +1,7 @@
+###### [← Go back](http://github.com/TheRockyDoo/audacity-themes)
 ## About
-**Dark Orange** is a minimal flat theme for Audacity 2.3+.
+**Dark Orange** is an orange minimal flat theme for Audacity 2.3+.
+###### ![Theme preview](https://raw.githubusercontent.com/TheRockyDoo/audacity-themes/master/previews/dark_orange.png)
 ## Author
 Theme made by **[noko](http://gumroad.com/noko)**.
 ## Installation
