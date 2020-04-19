@@ -1,5 +1,7 @@
+###### [← Go back](http://github.com/TheRockyDoo/audacity-themes)
 ## About
-**Dark Blue** is a minimal flat theme for Audacity 2.3+.
+**Dark Blue** is a blue minimal flat theme for Audacity 2.3+.
+###### ![Theme preview](https://raw.githubusercontent.com/TheRockyDoo/audacity-themes/master/previews/dark_blue.png)
 ## Author
 Theme made by **[noko](http://gumroad.com/noko)**.
 ## Installation
