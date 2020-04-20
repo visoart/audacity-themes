@@ -30,7 +30,7 @@ A blue minimal dark theme for Audacity 2.3+
 ## [GDAudacity](https://github.com/TheRockyDoo/audacity-themes/tree/master/gdaudacity)
 Godot Engine 3.2 look for Audacity 2.3+
 
-![Dark ice theme preview minimal audacity dark flat](https://raw.githubusercontent.com/TheRockyDoo/audacity-themes/master/previews/dark_ice.png)
+![Dark ice theme preview minimal audacity dark flat](https://raw.githubusercontent.com/TheRockyDoo/audacity-themes/master/previews/gdaudacity.png)
 
 ---
 ## How to install
