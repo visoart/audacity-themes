@@ -26,6 +26,13 @@ A blue minimal dark theme for Audacity 2.3+
 
 ![Dark blue theme preview minimal audacity dark flat](https://raw.githubusercontent.com/TheRockyDoo/audacity-themes/master/previews/dark_blue.png)
 
+---
+## [GDAudacity](https://github.com/TheRockyDoo/audacity-themes/tree/master/gdaudacity)
+Godot Engine 3.2 look for Audacity 2.3+
+
+![Dark ice theme preview minimal audacity dark flat](https://raw.githubusercontent.com/TheRockyDoo/audacity-themes/master/previews/dark_ice.png)
+
+---
 ## How to install
 1. Drop chosen ImageCache.png to `%appdata%/audacity/Theme` folder (Windows) or `~/.audacity-data/Theme` (Linux) or `~/Library/Application Support/audacity/Theme` (Mac),
 1. open Preferences and choose Custom theme under Interface tab.
