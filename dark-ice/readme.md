@@ -1,7 +1,6 @@
-###### [← Go back](http://github.com/TheRockyDoo/audacity-themes)
-###### [← Go back (relative)](../)
+###### [← Go back](http://github.com/TheRockyDoo/audacity-themes) | [Home](../../../)
 ## About
-**Dark Ice** is a minimal flat theme for Audacity 2.3+.
+> **Dark Ice** is a minimal flat theme for Audacity 2.3+. It's flat, clean and gives Audacity a more professional look.
 ###### ![Theme preview](https://raw.githubusercontent.com/TheRockyDoo/audacity-themes/master/previews/dark_ice.png)
 ## Author
 Theme made by **[noko](http://gumroad.com/noko)**.
