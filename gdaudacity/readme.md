@@ -1,6 +1,6 @@
-###### [← Go back](http://github.com/TheRockyDoo/audacity-themes)
+###### [← Go back](../) | [Home](../)
 ## About
-**GDAudacity** is a theme to make Audacity 2.3+ look like Godot Engine.
+> **GDAudacity** is a theme to make Audacity 2.3+ look like Godot Engine 3.2.
 ###### ![Theme preview](https://raw.githubusercontent.com/TheRockyDoo/audacity-themes/master/previews/gdaudacity.png)
 ## Author
 Theme made by **[noko](http://gumroad.com/noko)**.
