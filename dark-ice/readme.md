@@ -1,4 +1,3 @@
-###### [← Go back](../) | [Home](../)
 ## About
 > **Dark Ice** is a minimal flat theme for Audacity 2.3+. It's flat, clean and gives Audacity a more professional look.
 ###### ![Theme preview](https://raw.githubusercontent.com/TheRockyDoo/audacity-themes/master/previews/dark_ice.png)
