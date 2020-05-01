@@ -4,7 +4,12 @@ body {
 	color: #f0f0f0;
 	font-family: Arial, Helvetica, sans-serif;
 }
-.container-wide
+.container-wide {
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	padding: 5vw 10vw;
+}
 .container-grid{
 	background: rgba(0, 0, 0, .2);
 }
@@ -14,16 +19,19 @@ body {
 }
 .grid {
 	box-sizing: border-box;
-	width: 20vw;
-	height: 20vw;
+	width: calc( 100vw / 3 - 40px );
+	height: calc( 100vw / 3 - 40px );
 	float: left;
 	background-image: url(media/empty.png);
 	border: 0px solid rgba(255, 255, 255, 0);
+	margin: 20px;
 
 	background: url(../previews/none.jpg);
-	background-size: 220% auto;
 	background-repeat: no-repeat;
-	background-position: 0% 12%;
+//	background-size: 220% auto;
+//	background-position: 0% 12%;
+	background-size: 200% auto;
+	background-position: 0% 0%;
 
 }
 .grid .title {
@@ -47,9 +55,9 @@ body {
 	background-color: rgba(128, 128, 128, .2);
 }*/
 .grid .title:hover {
-	width: 20vw;
-	height: 20vw;
-	border: 2px solid rgba(255, 255, 255, 0);
+	width: calc( 100vw / 3 - 40px );
+	height: calc( 100vw / 3 - 40px );
+	border: 8px solid rgba(255, 255, 255, 255);
 	color: rgba(255, 255, 255, 255);
-	background-color: rgba(0, 0, 0, .5);
+	background-color: rgba(255, 255, 255, .3);
 }
