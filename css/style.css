@@ -32,6 +32,8 @@ body {
 //	background-position: 0% 12%;
 	background-size: 200% auto;
 	background-position: 0% 0%;
+	
+	border-radius: 1vw;
 
 }
 .grid .title {
@@ -46,6 +48,8 @@ body {
 	transition-timing-function: ease-in-out;
 	transition-duration: .2s;
 	border: 2px solid rgba(255, 255, 255, 0);
+	
+	border-radius: 1vw;
 }
 /*}
 .grid:nth-child(odd) {
@@ -60,4 +64,6 @@ body {
 	border: 8px solid rgba(255, 255, 255, 255);
 	color: rgba(255, 255, 255, 255);
 	background-color: rgba(255, 255, 255, .3);
+	
+	border-radius: 1vw;
 }
