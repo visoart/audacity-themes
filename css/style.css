@@ -19,8 +19,8 @@ body {
 }
 .grid {
 	box-sizing: border-box;
-	width: calc( 100vw / 3 - 40px );
-	height: calc( 100vw / 3 - 40px );
+	width: calc( 100vw / 4 - 40px );
+	height: calc( 100vw / 4 - 40px );
 	float: left;
 	background-image: url(media/empty.png);
 	border: 0px solid rgba(255, 255, 255, 0);
@@ -35,6 +35,8 @@ body {
 	
 	border-radius: 1vw;
 
+	transition-duration: .5s;
+	transition-timing-function: ease-in-out;
 }
 .grid .title {
 	box-sizing: border-box;
@@ -46,7 +48,7 @@ body {
 	color: rgba(255, 255, 255, 0);
 	background-color: rgba(0, 0, 0, 0);
 	transition-timing-function: ease-in-out;
-	transition-duration: .2s;
+	transition-duration: .1s;
 	border: 2px solid rgba(255, 255, 255, 0);
 	
 	border-radius: 1vw;
@@ -59,11 +61,34 @@ body {
 	background-color: rgba(128, 128, 128, .2);
 }*/
 .grid .title:hover {
-	width: calc( 100vw / 3 - 40px );
-	height: calc( 100vw / 3 - 40px );
+	width: calc( 100vw / 4 - 40px );
+	height: calc( 100vw / 4 - 40px );
 	border: 8px solid rgba(255, 255, 255, 255);
 	color: rgba(255, 255, 255, 255);
-	background-color: rgba(255, 255, 255, .3);
+	background-color: rgba(0, 0, 0, .5);
 	
 	border-radius: 1vw;
+}
+.grid:hover {
+	background-size: 100vw auto;
+	background-position: 0% 0%;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .grid {
+    width: calc( 100% - 40px );
+	height: calc( 50vw );
+	border-radius: 2vw;
+	margin: 10px 20px;
+  }
+  .grid .title {
+	width: calc( 100% - 0px );
+	height: calc( 50vw );
+	border: 1px solid rgba(255, 255, 255, 255);
+	color: rgba(255, 255, 255, 255);
+	background-color: rgba(0, 0, 0, .5);
+	
+	border-radius: 2vw;
+  }
 }
