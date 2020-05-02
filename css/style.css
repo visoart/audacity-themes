@@ -99,8 +99,8 @@ body {
 	height: calc( 50vw );
 	border: 1px solid rgba(255, 255, 255, 255);
 	color: rgba(0, 0, 0, 255);
-	background-color: rgba(255, 255, 255, .5);
+	background-color: rgba(255, 255, 255, .8);
 	
-	border-radius: 1vw;
+	border-radius: 2vw;
   }
 }
