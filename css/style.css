@@ -37,10 +37,9 @@ code {
 	margin: 0px;
 }
 .container-grid{
-	height: auto;
-	background: rgba(255, 255, 255, .5);
-	grid-auto-flow: column;
-	clear: both;
+	background: rgba(0, 0, 0, .3);
+	overflow: hidden;
+	position: relative;
 }
 .container-grid a{
 	text-decoration: none;
