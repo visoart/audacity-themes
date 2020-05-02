@@ -83,7 +83,7 @@ code {
 	
 	border-radius: 1vw;
 }
-.gr__tooltip {
+.gr__tooltip, .gr__tooltip::before {
 	float: left;
 	display:none;
 }
