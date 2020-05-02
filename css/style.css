@@ -35,7 +35,7 @@ body {
 	
 	border-radius: 1vw;
 
-	transition-duration: .5s;
+	transition-duration: .1s;
 	transition-timing-function: ease-in-out;
 }
 .grid .title {
@@ -74,6 +74,11 @@ body {
 	background-position: 0% 0%;
 }
 
+a {
+	text-decoration: underline;
+	font-weight: bold;
+	color: #ffffff;
+}
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
   .grid {
