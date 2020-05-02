@@ -40,6 +40,7 @@ code {
 	background: rgba(0, 0, 0, .3);
 	overflow: hidden;
 	position: relative;
+	padding: 20px 0px;
 }
 .container-grid a{
 	text-decoration: none;
