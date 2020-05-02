@@ -10,6 +10,7 @@ body {
 	height: auto;
 	box-sizing: border-box;
 	padding: 5vw 10vw;
+	clear: both;
 }
 code {
 	font-family: "Lucida Console", Courier, monospace;
@@ -26,6 +27,7 @@ code {
 	clear: both;
 	box-sizing: border-box;
 	padding: 5vw 10vw;
+	clear: both;
 }
 .three-columns {
 	box-sizing: border-box;
