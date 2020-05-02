@@ -15,7 +15,7 @@ code {
 	font-family: "Lucida Console", Courier, monospace;
 	background: #fff;
 	color: #000;
-	white-space:nowrap;
+	white-space:normal;/*normal/nowrap*/
 	padding: 1px;
 	border-radius: 4px;
 }
