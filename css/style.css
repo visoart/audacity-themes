@@ -10,18 +10,45 @@ body {
 	box-sizing: border-box;
 	padding: 5vw 10vw;
 }
+code {
+	font-family: "Lucida Console", Courier, monospace;
+	background: #fff;
+	color: #000;
+	white-space:nowrap;
+}
+.container-three-columns {
+	display: grid;
+	grid-auto-columns: 3fr;
+	grid-auto-flow: column;
+	clear: both;
+	box-sizing: border-box;
+	padding: 5vw 10vw;
+}
+.three-columns {
+	box-sizing: border-box;
+	width: calc( 100% - 40px );
+	height: auto;
+	float: left;
+	margin: 0px;
+}
 .container-grid{
 	background: rgba(0, 0, 0, .2);
-	display: grid;
-	grid-template-columns: auto auto auto auto;
+	grid-auto-flow: column;
+	clear: both;
 }
 .container-grid a{
 	text-decoration: none;
 	color: #f0f0f0;
 }
+#shorter {
+	padding: .1vw 10vw;
+}
+#shorter-top {
+	padding: .1vw 10vw 5vw 10vw;
+}
 .grid {
 	box-sizing: border-box;
-	width: calc( 100vw / 4 - 40px );
+	width: calc( 100% / 4 - 40px );
 	height: calc( 100vw / 4 - 40px );
 	float: left;
 	background-image: url(media/empty.png);
@@ -63,7 +90,7 @@ body {
 	background-color: rgba(128, 128, 128, .2);
 }*/
 .grid .title:hover {
-	width: calc( 100vw / 4 - 40px );
+	width: calc( 100% );
 	height: calc( 100vw / 4 - 40px );
 	border: 8px solid rgba(255, 255, 255, 255);
 	color: rgba(255, 255, 255, 255);
@@ -83,35 +110,48 @@ a {
 }
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
-  .container-grid {
-	display: grid;
-	grid-template-columns: auto;
-  }
-  .grid {
-    width: calc( 100% - 40px );
-	height: calc( 50vw );
-	border-radius: 2vw;
-	margin: 10px 20px;
-  }
-  .grid:hover {
-	
-  }
-  .grid .title {
-	width: calc( 100% - 0px );
-	height: calc( 50vw );
-	border: 1px solid rgba(255, 255, 255, 255);
-	color: rgba(255, 255, 255, 255);
-	background-color: rgba(0, 0, 0, .5);
-	
-	border-radius: 2vw;
-  }
-  .grid .title:hover {
-	width: calc( 100% - 0px );
-	height: calc( 50vw );
-	border: 1px solid rgba(255, 255, 255, 255);
-	color: rgba(0, 0, 0, 255);
-	background-color: rgba(255, 255, 255, .8);
-	
-	border-radius: 2vw;
-  }
+	.container-grid {
+		
+	}
+	.grid {
+		width: calc( 100% - 40px );
+		height: calc( 50vw );
+		border-radius: 2vw;
+		margin: 10px 20px;
+	}
+	.grid:hover {
+		
+	}
+		.grid .title {
+		width: calc( 100% - 0px );
+		height: calc( 50vw );
+		border: 1px solid rgba(255, 255, 255, 255);
+		color: rgba(255, 255, 255, 255);
+		background-color: rgba(0, 0, 0, .5);
+		
+		border-radius: 2vw;
+	}
+		.grid .title:hover {
+		width: calc( 100% - 0px );
+		height: calc( 50vw );
+		border: 1px solid rgba(255, 255, 255, 255);
+		color: rgba(0, 0, 0, 255);
+		background-color: rgba(255, 255, 255, .8);
+		
+		border-radius: 2vw;
+	}
+	.container-three-columns {
+		display: block;
+		grid-auto-columns: 1fr;
+		grid-auto-flow: column;
+		clear: both;
+		box-sizing: border-box;
+		padding: 5vw 10vw;
+	}
+	code {
+		font-family: "Lucida Console", Courier, monospace;
+		background: #fff;
+		color: #000;
+		white-space:normal;
+	}
 }
