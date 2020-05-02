@@ -49,6 +49,9 @@ code {
 #shorter-top {
 	padding: .1vw 10vw 5vw 10vw;
 }
+#shorter-bottom {
+	padding: 5vw 10vw .1vw 10vw;
+}
 .grid {
 	box-sizing: border-box;
 	width: calc( 100% / 4 - 40px );
