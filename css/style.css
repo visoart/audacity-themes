@@ -83,6 +83,10 @@ a {
 }
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
+  .container-grid {
+	display: grid;
+	grid-template-columns: auto;
+  }
   .grid {
     width: calc( 100% - 40px );
 	height: calc( 50vw );
