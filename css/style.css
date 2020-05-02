@@ -67,7 +67,7 @@ code {
 	
 	border-radius: 1vw;
 
-	transition-duration: .0s;
+	transition-duration: .3s;
 	transition-timing-function: ease-in-out;
 }
 .grid .title {
