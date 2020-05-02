@@ -43,9 +43,9 @@ code {
 	padding: 20px 0px;
 }
 #shadow-inner {
-	-moz-box-shadow:	inset 0px 10px 20px rgba(0, 0, 0, .8), inset 0px -10px 20px rgba(0, 0, 0, .8);
-	-webkit-box-shadow:	inset 0px 10px 20px rgba(0, 0, 0, .8), inset 0px -10px 20px rgba(0, 0, 0, .8);
-	box-shadow: 		inset 0px 10px 20px rgba(0, 0, 0, .8), inset 0px -10px 20px rgba(0, 0, 0, .8);
+	-moz-box-shadow:	inset 0px 0px 10px rgba(0, 0, 0, .8);
+	-webkit-box-shadow:	inset 0px 0px 10px rgba(0, 0, 0, .8);
+	box-shadow: 		inset 0px 0px 10px rgba(0, 0, 0, .8);
 }
 .container-grid a{
 	text-decoration: none;
@@ -81,6 +81,10 @@ code {
 	transition-duration: .3s;
 	transition-timing-function: ease-in-out;
 	clear: right;
+	
+	-moz-box-shadow:	0px 10px 10px rgba(0, 0, 0, .8);
+	-webkit-box-shadow:	0px 10px 10px rgba(0, 0, 0, .8);
+	box-shadow: 		0px 10px 10px rgba(0, 0, 0, .8);
 }
 .grid .title {
 	box-sizing: border-box;
