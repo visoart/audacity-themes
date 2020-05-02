@@ -83,6 +83,9 @@ code {
 	
 	border-radius: 1vw;
 }
+.gr__tooltip {
+	display:none;
+}
 /*}
 .grid:nth-child(odd) {
 	background-color: rgba(128, 128, 128, .25);
