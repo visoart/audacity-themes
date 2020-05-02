@@ -80,7 +80,7 @@ code {
 	transition-timing-function: ease-in-out;
 	transition-duration: .1s;
 	border: 2px solid rgba(255, 255, 255, 0);
-	
+	text-align: center;
 	border-radius: 1vw;
 }
 .gr__tooltip, .gr__tooltip::before {
