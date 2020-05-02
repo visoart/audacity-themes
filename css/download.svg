@@ -25,9 +25,9 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="10.124136"
-     inkscape:cx="10.205921"
-     inkscape:zoom="22.627417"
+     inkscape:cy="24.660042"
+     inkscape:cx="22.41483"
+     inkscape:zoom="2.8284271"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0"
      borderopacity="1.0"
@@ -65,7 +65,7 @@
      transform="translate(0,-281.51667)">
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="M 0,0 V 16 H 16 V 0 Z M 6.0000001,4.0000001 H 10 v 5 h 2 L 8.0000001,13 l -4,-3.9999999 h 2 z"
+       d="M 0,0 V 16 H 16 V 0 Z M 6.0000001,4.0000001 H 10 l 0,4 h 2 L 8.0000001,12 l -4,-3.9999999 h 2 z"
        transform="matrix(0.26458333,0,0,0.26458333,0,281.51667)"
        id="rect818"
        inkscape:connector-curvature="0"
