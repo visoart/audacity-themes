@@ -16,6 +16,8 @@ code {
 	background: #fff;
 	color: #000;
 	white-space:nowrap;
+	padding: 1px;
+	border-radius: 4px;
 }
 .container-three-columns {
 	display: grid;
