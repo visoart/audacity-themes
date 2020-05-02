@@ -12,6 +12,8 @@ body {
 }
 .container-grid{
 	background: rgba(0, 0, 0, .2);
+	display: grid;
+	grid-template-columns: auto auto auto auto;
 }
 .container-grid a{
 	text-decoration: none;
