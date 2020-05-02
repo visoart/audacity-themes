@@ -37,7 +37,8 @@ code {
 	margin: 0px;
 }
 .container-grid{
-	background: rgba(0, 0, 0, .2);
+	height: auto;
+	background: rgba(255, 255, 255, .5);
 	grid-auto-flow: column;
 	clear: both;
 }
@@ -74,6 +75,7 @@ code {
 
 	transition-duration: .3s;
 	transition-timing-function: ease-in-out;
+	clear: right;
 }
 .grid .title {
 	box-sizing: border-box;
