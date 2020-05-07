@@ -1,7 +1,5 @@
 # Audacity themes
-by [noko](https://gumroad.com/noko).
-
-# Themes avaible for download [here](http://therockydoo.github.io/audacity-themes).
+## Go to [project page](http://therockydoo.github.io/audacity-themes).
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D0EQH5)
 
