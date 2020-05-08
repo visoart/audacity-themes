@@ -230,4 +230,9 @@ a {
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
+	.kofi-button {
+		margin-top: 5px;
+		box-sizing: border-box;
+		width: 100%;
+	}
 }
