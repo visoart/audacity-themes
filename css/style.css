@@ -40,7 +40,7 @@ code {
 	background: rgba(0, 0, 0, .3);
 	overflow: hidden;
 	position: relative;
-	padding: 20px 0px;
+	padding: 20px 100px;
 }
 #shadow-inner {
 	-moz-box-shadow:	inset 0px 0px 10px rgba(0, 0, 0, .8);
@@ -63,7 +63,7 @@ code {
 .grid {
 	box-sizing: border-box;
 	width: calc( 100% / 4 - 40px );
-	height: calc( 100vw / 4 - 40px );
+	height: calc( 100vw / 4 - 40px - 40px);
 	float: left;
 	background-image: url(media/empty.png);
 	border: 0px solid rgba(255, 255, 255, 0);
@@ -114,7 +114,7 @@ code {
 }*/
 .grid .title:hover {
 	width: calc( 100% );
-	height: calc( 100vw / 4 - 40px );
+	height: calc( 100vw / 4 - 40px - 40px );
 	border: 8px solid rgba(255, 255, 255, 255);
 	color: rgba(255, 255, 255, 255);
 	background-color: rgba(0, 0, 0, .5);
@@ -131,10 +131,23 @@ a {
 	font-weight: bold;
 	color: #ffffff;
 }
+/* Use a media query to add a breakpoint at 1200px: */
+@media screen and (max-width: 1200px) {
+	.container-grid {
+		padding: 20px 0px;
+	}
+	.grid {
+		width: calc( 100% / 3 - 40px );
+		height: calc( 100vw / 4 - 40px );
+	}
+	.grid .title:hover {
+		height: calc( 100vw / 4 - 40px );
+	}
+}
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
 	.container-grid {
-		
+		padding: 20px 0px;
 	}
 	.grid {
 		width: calc( 100% - 40px );
