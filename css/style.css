@@ -131,6 +131,34 @@ a {
 	font-weight: bold;
 	color: #ffffff;
 }
+#lightblue:target, #lightblue:target ~ .grid {
+	border: 8px solid rgb(255, 94, 91);
+}
+#audition:target, #audition:target ~ .grid {
+	border: 8px solid rgb(255, 94, 91);
+}
+#darkice:target, #darkice:target ~ .grid {
+	border: 8px solid rgb(255, 94, 91);
+}
+#darkblue:target, #darkblue:target ~ .grid {
+	border: 8px solid rgb(255, 94, 91);
+}
+#darkorange:target, #darkorange:target ~ .grid {
+	border: 8px solid rgb(255, 94, 91);
+}
+#gdaudacity:target, #gdaudacity:target ~ .grid {
+	border: 8px solid rgb(255, 94, 91);
+}
+*:target .grid:hover { /* NOT WORKING */
+	background-size: 10px auto;
+	background-position: 50% 50%;
+	border-radius: 100%;
+}
+*:target .title:hover {
+	border: 0px;
+	border-radius: 12px;
+	height: calc( 100% )
+}
 /* Use a media query to add a breakpoint at 768px: */
 @media screen and (max-width: 768px) { /*VERTICAL TABLET*/
 	.container-grid {
