@@ -8,8 +8,8 @@ body {
 }
 code {
 	font-family: "Lucida Console", Courier, monospace;
-	background: #303030;
-	color: #fff;
+	background: #d0d0d0;
+	color: #000;
 }
 .container-grid{
 	background: rgba(0, 0, 0, .05);
