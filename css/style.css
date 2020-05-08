@@ -14,8 +14,8 @@ body {
 }
 code {
 	font-family: "Lucida Console", Courier, monospace;
-	background: #ffbc08;
-	color: #000;
+	background: #303030;
+	color: #fff;
 	white-space:normal;/*normal/nowrap*/
 	padding: 1px;
 	border-radius: 4px;
@@ -219,9 +219,6 @@ a {
 		padding: 5vw 10vw;
 	}
 	code {
-		font-family: "Lucida Console", Courier, monospace;
-		background: #fff;
-		color: #000;
 		white-space:normal;
 	}
 	.righttop-bg1 {
