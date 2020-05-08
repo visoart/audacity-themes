@@ -130,6 +130,11 @@ a {
 	text-decoration: underline;
 	font-weight: bold;
 	color: #ffbc08;
+	transition-timing-function: ease-in-out;
+	transition-duration: .3s;
+}
+a:hover {
+	color: #fff;
 }
 .righttop-bg1 {
 	background-image: url('../css/bg.svg');
@@ -223,7 +228,7 @@ a {
 	}
 	.righttop-bg1 {
 		background-image: url('../css/bg.svg');
-		background-position: 80% 0%;
+		background-position: 63% 0%;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
