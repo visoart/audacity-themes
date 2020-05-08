@@ -42,9 +42,10 @@ span.kofitext {
 	border: 2px solid rgba(255, 255, 255, 0);
 }
 .grid .title:hover {
-	border: 8px solid #ffbc08;
+	border: 8px solid #ffffff;
 	color: rgba(255, 255, 255, 255);
 	background-color: rgba(0, 0, 0, .5);
+	border-radius: .9vw;
 }
 a {
 	color: #ffbc08;
@@ -73,13 +74,13 @@ a:hover {
 /* Use a media query to add a breakpoint at 400px: */
 @media screen and (max-width: 512px) { /*VERTICAL PHONE*/
 	.grid .title {
-		border: 1px solid rgba(255, 255, 255, 255);
+		border: 1px solid rgba(0, 0, 0, 255);
 		color: rgba(255, 255, 255, 255);
 		background-color: rgba(0, 0, 0, .5);
 	}
 		.grid .title:hover {
-		border: 1px solid rgba(255, 255, 255, 255);
-		color: rgba(0, 0, 0, 255);
-		background-color: rgba(255, 255, 255, .8);
+		border: 1px solid rgba(0, 0, 0, 255);
+		color: rgba(255, 255, 255, 255);
+		background-color: rgba(0, 0, 0, .8);
 	}
 }
