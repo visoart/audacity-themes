@@ -172,7 +172,7 @@ a:hover {
 	height: calc( 100% )
 }
 /* Use a media query to add a breakpoint at 768px: */
-@media screen and (max-width: 768px) { /*VERTICAL TABLET*/
+@media screen and (max-width: 1024px) { /*VERTICAL TABLET*/
 	.container-grid {
 		padding: 20px 0px;
 	}
@@ -185,7 +185,7 @@ a:hover {
 	}
 }
 /* Use a media query to add a breakpoint at 400px: */
-@media screen and (max-width: 400px) { /*VERTICAL PHONE*/
+@media screen and (max-width: 768px) { /*VERTICAL PHONE*/
 	.container-grid {
 		padding: 20px 0px;
 	}
