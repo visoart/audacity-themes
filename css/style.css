@@ -14,7 +14,7 @@ body {
 }
 code {
 	font-family: "Lucida Console", Courier, monospace;
-	background: #fff;
+	background: #ffbc08;
 	color: #000;
 	white-space:normal;/*normal/nowrap*/
 	padding: 1px;
@@ -115,7 +115,7 @@ code {
 .grid .title:hover {
 	width: calc( 100% );
 	height: calc( 100vw / 4 - 40px - 40px );
-	border: 8px solid rgba(255, 255, 255, 255);
+	border: 8px solid #ffbc08;
 	color: rgba(255, 255, 255, 255);
 	background-color: rgba(0, 0, 0, .5);
 	
@@ -129,7 +129,7 @@ code {
 a {
 	text-decoration: underline;
 	font-weight: bold;
-	color: #ffffff;
+	color: #ffbc08;
 }
 .righttop-bg1 {
 	background-image: url('../css/bg.svg');
