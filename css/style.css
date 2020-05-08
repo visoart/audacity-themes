@@ -8,7 +8,7 @@ body {
 	/*overflow-x: hidden;*/
 }
 button {
-	background-color: #303030; /* Green */
+	background-color: #303030;
 	border: none;
 	color: white;
 	padding: 2px 12px;
@@ -21,6 +21,25 @@ button {
 	min-width: 150px;
 	float: right;
 	font-weight: bold;
+}
+.buttons-style {
+	background-color: #303030;
+	color: #ffffff;
+	background-color: #303030;
+	border: none;
+	padding: 2px 12px;
+	border-radius: 6px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+	line-height: 36px !important;
+	min-width: 150px;
+	font-weight: bold;
+	transition-duration: 0s !important;
+}
+span.kofitext {
+	color: #ffffff;
 }
 .container-wide {
 	width: 100%;

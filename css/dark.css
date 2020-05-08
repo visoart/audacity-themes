@@ -17,6 +17,13 @@ code {
 .container-grid a{
 	color: #f0f0f0;
 }
+.buttons-style {
+	background-color: #303030 !important;
+	color: #ffffff !important;
+}
+span.kofitext {
+	color: #ffffff !important;
+}
 .grid {
 	border: 0px solid rgba(255, 255, 255, 0);	
 	-moz-box-shadow:	0px 10px 10px rgba(0, 0, 0, .8);
