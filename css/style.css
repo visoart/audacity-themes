@@ -223,4 +223,9 @@ a {
 		color: #000;
 		white-space:normal;
 	}
+	.righttop-bg1 {
+		background-image: url('../css/bg.svg');
+		background-position: 80% 0%;
+		background-repeat: no-repeat;
+	}
 }
