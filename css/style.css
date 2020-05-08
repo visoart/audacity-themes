@@ -141,6 +141,7 @@ a:hover {
 	background-position: right top;
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding-top: 10%;
 }
 #lightblue:target, #lightblue:target ~ .grid {
 	border: 8px solid #ffbc08;
@@ -231,6 +232,7 @@ a:hover {
 		background-position: 63% 0%;
 		background-size: cover;
 		background-repeat: no-repeat;
+		padding-top: 40%;
 	}
 	.kofi-button {
 		margin-top: 5px;
