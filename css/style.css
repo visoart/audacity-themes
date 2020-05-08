@@ -133,8 +133,9 @@ a {
 }
 .righttop-bg1 {
 	background-image: url('../css/bg.svg');
-	background-position: 100% 0%;
+	background-position: right top;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 #lightblue:target, #lightblue:target ~ .grid {
 	border: 8px solid rgb(255, 94, 91);
@@ -226,6 +227,7 @@ a {
 	.righttop-bg1 {
 		background-image: url('../css/bg.svg');
 		background-position: 80% 0%;
+		background-size: cover;
 		background-repeat: no-repeat;
 	}
 }
