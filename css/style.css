@@ -154,7 +154,7 @@ a:hover {
 	color: #fff;
 }
 a.kofi-button {
-	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 .righttop-bg1 {
 	background-image: url('../css/bg.svg');
