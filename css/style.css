@@ -1,3 +1,7 @@
+* {
+	transition: ease-in-out !important;
+	transition-duration: .3s !important;
+}
 #darkmode {display: none}
 #lightmode {display: inherit}
 body {
