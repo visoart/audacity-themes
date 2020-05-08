@@ -185,7 +185,7 @@ a:hover {
 	}
 }
 /* Use a media query to add a breakpoint at 400px: */
-@media screen and (max-width: 768px) { /*VERTICAL PHONE*/
+@media screen and (max-width: 512px) { /*VERTICAL PHONE*/
 	.container-grid {
 		padding: 20px 0px;
 	}
