@@ -9,13 +9,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
 		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="js/themeChange.js"></script>
+		
 		<meta property="og:url"			content="https://therockydoo.github.io/audacity-themes/" />
 		<meta property="og:type"		content="article" />
 		<meta property="og:title"		content="Audacity themes" />
 		<meta property="og:description"	content="Need a night-mode theme or looking for a fresh look? You've found it! Customize Audacity and make it look more professional and clean using these themes ready for download." />
 		<meta property="og:image"		content="https://therockydoo.github.io/audacity-themes/css/article_preview.png" />
 		
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="alternate stylesheet" type="text/css" href="css/dark.css" title="dark">
+		<link rel="alternate stylesheet" type="text/css" href="css/light.css" title="light">
 	</head>
 	<body>
 		<div class="container-wide righttop-bg1" id="top">
@@ -52,6 +57,10 @@
 				<h3>Macintosh</h3>
 				<p>Drop downloaded ImageCache.png to <code>~/Library/Application Support/audacity/Theme</code>, in Audacity open Preferences and choose Custom theme under Interface tab.</p>
 				<p>You need to have Audacity 2.3+ installed.</p>
+			</div>
+			<div class="container-wide">
+				<button type="button" onclick="switch_style('dark');return false;" name="theme" value="Blue Theme" id="blue">Dark Theme</button>
+				<button type="button" onclick="switch_style('light');return false;" name="theme" value="Pink Theme" id="pink">Light Theme</button> 
 			</div>
 		</div>
 	</body>
