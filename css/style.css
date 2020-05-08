@@ -37,6 +37,7 @@ button {
 	min-width: 150px;
 	font-weight: bold;
 	transition-duration: 0s !important;
+	font-size: .85em;
 }
 span.kofitext {
 	color: #ffffff;
