@@ -131,6 +131,11 @@ a {
 	font-weight: bold;
 	color: #ffffff;
 }
+.righttop-bg1 {
+	background-image: url(https://storage.ko-fi.com/cdn/cup-border.png);
+	background-position: 100% 0%;
+	background-repeat: no-repeat;
+}
 #lightblue:target, #lightblue:target ~ .grid {
 	border: 8px solid rgb(255, 94, 91);
 }
