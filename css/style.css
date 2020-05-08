@@ -138,22 +138,22 @@ a {
 	background-size: cover;
 }
 #lightblue:target, #lightblue:target ~ .grid {
-	border: 8px solid rgb(255, 94, 91);
+	border: 8px solid #ffbc08;
 }
 #audition:target, #audition:target ~ .grid {
-	border: 8px solid rgb(255, 94, 91);
+	border: 8px solid #ffbc08;
 }
 #darkice:target, #darkice:target ~ .grid {
-	border: 8px solid rgb(255, 94, 91);
+	border: 8px solid #ffbc08;
 }
 #darkblue:target, #darkblue:target ~ .grid {
-	border: 8px solid rgb(255, 94, 91);
+	border: 8px solid #ffbc08;
 }
 #darkorange:target, #darkorange:target ~ .grid {
-	border: 8px solid rgb(255, 94, 91);
+	border: 8px solid #ffbc08;
 }
 #gdaudacity:target, #gdaudacity:target ~ .grid {
-	border: 8px solid rgb(255, 94, 91);
+	border: 8px solid #ffbc08;
 }
 *:target .grid:hover { /* NOT WORKING */
 	background-size: 10px auto;

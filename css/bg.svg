@@ -18,11 +18,11 @@
       <stop
          id="stop1204"
          offset="0"
-         style="stop-color:#0d8aff;stop-opacity:1;" />
+         style="stop-color:#ffbc08;stop-opacity:1" />
       <stop
          id="stop1206"
          offset="1"
-         style="stop-color:#0d8aff;stop-opacity:0;" />
+         style="stop-color:#ffbc08;stop-opacity:0.2" />
     </linearGradient>
     <linearGradient
        gradientUnits="userSpaceOnUse"
