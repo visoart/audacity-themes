@@ -249,6 +249,10 @@ code {
 	background-size: cover;
 	background-position: 50% 50%;
 	display: table-cell;
+	border-top: #fff solid 10px;
+	border-right: #fff solid 20px;
+	border-bottom: #fff solid 10px;
+	border-left: #fff solid 20px;
 }
 .product-50 {
 	color: #fff;
@@ -263,6 +267,19 @@ code {
 	background-size: cover;
 	background-position: 50% 50%;
 	display: table-cell;
+	border: #fff solid 20px;
+}
+.product-50:nth-child(odd) {
+	border-top: #fff solid 10px;
+	border-right: #fff solid 10px;
+	border-bottom: #fff solid 10px;
+	border-left: #fff solid 20px;
+}
+.product-50:nth-child(even) {
+	border-top: #fff solid 10px;
+	border-right: #fff solid 20px;
+	border-bottom: #fff solid 10px;
+	border-left: #fff solid 10px;
 }
 .product-inverted{
 	color: #000;
