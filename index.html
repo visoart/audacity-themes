@@ -1,66 +1,100 @@
- <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		
-		<title>Audacity Themes</title>
-		<meta name="description" content="Free themes for Audacity - an open source audio editor.">
-		<meta name="author" content="TheRockyDoo">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
-		
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script src="js/themeChange.js"></script>
-		
-		<meta property="og:url"			content="https://therockydoo.github.io/audacity-themes/" />
-		<meta property="og:type"		content="article" />
-		<meta property="og:title"		content="Audacity themes" />
-		<meta property="og:description"	content="Need a night-mode theme or looking for a fresh look? You've found it! Customize Audacity and make it look more professional and clean using these themes ready for download." />
-		<meta property="og:image"		content="https://therockydoo.github.io/audacity-themes/css/article_preview.png" />
-		
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="alternate stylesheet" type="text/css" href="css/dark.css" title="dark">
-		<link rel="alternate stylesheet" type="text/css" href="css/light.css" title="light">
+		<link rel="stylesheet" media="screen" href="styles/main.css" type="text/css"/>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,200;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>
+			Audacity Themes Repository
+		</title>
 	</head>
-	<body onload="set_style_from_cookie()"> 
-		<div class="container-wide righttop-bg1" id="top">
-			<h1>Audacity themes</h1>
-			<p>Need a night-mode theme or looking for a fresh look? You've found it! Customize Audacity and make it look more professional and clean using these themes ready for download.</p>
-			<p>Press a theme thumbnail to download ImageCache.png. Learn more about the project at <a href="https://github.com/TheRockyDoo/audacity-themes/blob/master/README.md" target="_blank">Github repository</a> or get tips on <a href="#installation">how to install</a> your custom theme.</p>
-			<p>This website uses cookies to store your view mode preferences.</p><br/>
-			<script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><span style="display: none"><script type='text/javascript'>kofiwidget2.init('Support this project', '#ffbc08', 'D1D0EQH5');kofiwidget2.draw();</script></span>
-			<a class="kofi-button" href="http://ko-fi.com/D1D0EQH5" target="_blank" style="background-color:#ffbc08; color: #000;"><span class="kofitext"><img src="https://storage.ko-fi.com/cdn/cup-border.png" class="kofiimg"> <span style="color: #000;">Support this project</span></span></a>
-			<a class="button buttons-style" href="http://gumroad.com/noko" target="_blank" style="background-color:#303030; transform: translateY(2px);"><span>View other FREE tools and files</span></a>
-			<button type="button" onclick="switch_style('dark');return false;" name="theme" value="Dark theme" id="darkmode" class="buttons-style">Enable dark mode</button>
-			<button type="button" onclick="switch_style('light');return false;" name="theme" value="Light theme" id="lightmode" class="buttons-style">Enable bright mode</button>
+	<body>
+		<!-- Navigation bar -->
+		<div class="navigation-bar">
+			<a href="http://ko-fi.com/D1D0EQH5" class="button">Audacity Themes</a>
+			<a href="#install" class="button">Installation</a>
 		</div>
-		<div class="container-grid" id="shadow-inner">
-			<a href="light-blue/ImageCache.png" download><div class="grid" style="background-image: url(previews/light-blue.png)" id="lightblue"><div class="title"><h1>Light Blue</h1></div></div></a>
-			<a href="http://gum.co/audacityaudition" target="_blank"><div class="grid" style="background-image: url(previews/audition.png)" id="audition"><div class="title"><h1>Audacity Audition<br/>(OFF-SITE)</h1></div></div></a>
-			<a href="dark-ice/ImageCache.png" download><div class="grid" style="background-image: url(previews/dark_ice.png)" id="darkice"><div class="title"><h1>Dark Ice</h1></div></div></a>
-			<a href="dark-blue/ImageCache.png" download><div class="grid" style="background-image: url(previews/dark_blue.png)" id="darkblue"><div class="title"><h1>Dark Blue</h1></div></div></a>
-			<a href="dark-orange/ImageCache.png" download><div class="grid" style="background-image: url(previews/dark_orange.png)" id="darkorange"><div class="title"><h1>Dark Orange</h1></div></div></a>
-			<a href="gdaudacity/ImageCache.png" download><div class="grid" style="background-image: url(previews/gdaudacity.png)" id="gdaudacity"><div class="title"><h1>GDAudacity</h1></div></div></a>
+		<!-- Content -->
+		<div class="navigation-gap"></div>
+		<div class="thumbnail"><img src="media/logo_wht.svg"></img></div>
+		<div class="content wide-50">
+			<h1>Free Audacity themes</h1>
+			<p>Hop to an another level of using Audacity software and install one of these gorgeous themes avaible on Audacity Themes Repository. Choose from a variety of light themes or dark ones if you like.</p>
+			<p>These themes work with Audacity 2.3 and newer.</p>
+			<p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M7WXXCVTDZWGE&source=url" class="button button-special">Donate</a>
+			<a href="#install" class="button">How to install</a></p>
 		</div>
-		<div id="installation"/><div class="container-wide" id="shorter-bottom">
-			<h2>How to install a theme</h2>
+		<!-- PRODUCTS: -->
+		<div class="products-container">
+			<div class="product-wide product-50 product-inverted" id="light-blue" style="background-image: url(media/light-blue.png)">
+				<h2>Light Blue</h2>
+				<p>A bright* minimalistic theme perfect for those who loves a software with simplified look.</p><br/>
+				<a href="themes/light-blue/ImageCache.png" download class="button button-inverted">Download</a></p>
+				<p><small>*some parts of Audacity UI depends on the operating system itself rather than a theme file</small></p>
+			</div>
+			<div class="product-wide product-50" id="dark-orange" style="background-image: url(media/dark-orange.png)">
+				<h2>Dark Orange</h2>
+				<p>An energetic dark* theme perfect for those who want to focus on the sound both at nigh and day.</p><br/>
+				<a href="#install" class="button button-inverted">Download</a></p>
+				<p><small>*some parts of Audacity UI depends on the operating system itself rather than a theme file</small></p>
+			</div>
+			<span class="clear"></span>
 		</div>
-		<div class="container-three-columns" id="shorter-top">
-			<div class="three-columns">
+		<div class="products-container">
+			<div class="product-wide" id="audacity-audition" style="background-image: url(media/audacity-audition.png)">
+				<h2>Audacity Audition</h2>
+				<p>This full professional dark* theme based on Adobe Audition software will enhance your Audacity experience.</p><br/>
+				<a href="#install" class="button button-inverted">Download (off-site)</a></p>
+				<p><small>*some parts of Audacity UI depends on the operating system itself rather than a theme file</small></p>
+			</div>
+			<span class="clear"></span>
+		</div>
+		<div class="products-container">
+			<div class="product-wide product-50" id="dark-ice" style="background-image: url(media/dark-ice.png)">
+				<h2>Dark Ice</h2>
+				<p>A very compact & minimal dark* theme ideal for editing audio at night.</p><br/>
+				<a href="themes/dark-ice/ImageCache.png" download class="button button-inverted">Download</a></p>
+				<p><small>*some parts of Audacity UI depends on the operating system itself rather than a theme file</small></p>
+			</div>
+			<div class="product-wide product-50" id="dark-blue" style="background-image: url(media/dark-blue.png)">
+				<h2>Dark Blue</h2>
+				<p>A dark night-mode* theme with a tint of blue colour on some of the interface elements like waveform and buttons.</p><br/>
+				<a href="themes/dark-blue/ImageCache.png" class="button button-inverted">Download</a></p>
+				<p><small>*some parts of Audacity UI depends on the operating system itself rather than a theme file</small></p>
+			</div>
+			<span class="clear"></span>
+		</div>
+		<div class="products-container">
+			<div class="product-wide" id="gdaudacity" style="background-image: url(media/gdaudacity.png)">
+				<h2>GDAudacity</h2>
+				<p>A theme based on Godot Engine default look. Choose it if you want to make your workflow more immersive.</p><br/>
+				<a href="themes/gdaudacity/ImageCache.png" class="button button-inverted">Download</a></p>
+				<p><small>*some parts of Audacity UI depends on the operating system itself rather than a theme file</small></p>
+			</div>
+			<span class="clear"></span>
+		</div>
+		<!-- How to install -->
+		<div class="content wide-50" id="install">
+			<h2>How to install</h2>
+			<p>Instalation process depends on your OS. Below you can see instructions for Linux, Windows and Macintosh:</p>
+		</div>
+		<div class="three-columns">
+			<div class="three-columns-item">
 				<h3>Linux</h3>
 				<p>Drop downloaded ImageCache.png to <code>~/.audacity-data/Theme</code>, in Audacity open Preferences and choose Custom theme under Interface tab.</p>
-				<p>You need to have Audacity 2.3+ installed.</p>
 			</div>
-			<div class="three-columns">
+			<div class="three-columns-item">
 				<h3>Windows</h3>
 				<p>Drop downloaded ImageCache.png to <code>%appdata%/audacity/Theme</code>, in Audacity open Preferences and choose Custom theme under Interface tab.</p>
-				<p>You need to have Audacity 2.3+ installed.</p>
 			</div>
-			<div class="three-columns">
+			<div class="three-columns-item">
 				<h3>Macintosh</h3>
 				<p>Drop downloaded ImageCache.png to <code>~/Library/Application Support/audacity/Theme</code>, in Audacity open Preferences and choose Custom theme under Interface tab.</p>
-				<p>You need to have Audacity 2.3+ installed.</p>
 			</div>
 		</div>
+		<span class="clear"></span>
+		<!-- Footer -->
+		<div class="footer">
+			<a href="http://ko-fi.com/D1D0EQH5" class="button">View project's GitHub</a>
+		</div>
 	</body>
-</html> 
+</html>
