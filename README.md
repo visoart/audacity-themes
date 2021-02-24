@@ -1,6 +1,6 @@
 # Audacity themes
 Don't forget to ✩ my repository!
-## Looking for an Audacity theme? Go to [project page](http://therockydoo.github.io/audacity-themes).
+## Looking for an Audacity theme? Go to [project page](http://visoart.github.io/audacity-themes).
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D0EQH5)
 
