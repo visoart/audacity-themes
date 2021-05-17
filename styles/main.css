@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 @font-face {
     font-family: "Aileron";
     src: url("../media/fonts/Aileron-Regular.woff") format('woff');
@@ -63,7 +64,7 @@ body {
 	font-style: normal;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Aileron', 'Roboto', sans-serif;
+	font-family: 'DM Sans', 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 100;
 	margin: 0px;
