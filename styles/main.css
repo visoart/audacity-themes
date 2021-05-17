@@ -404,7 +404,10 @@ span.clear {
 	}
 	.thumbnail img {
 		width: 80%;
-		height: auto !important;
+		height: auto;
+	}
+	.thumbnail {
+		height: auto;
 	}
 	.three-columns {
 	display: block;
