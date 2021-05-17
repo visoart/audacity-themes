@@ -157,7 +157,7 @@ h6 {
 .thumbnail {
 	width: 100%;
 	box-sizing: border-box;
-	height: calc( 128px + 30pt );
+	height: calc( 128px + 145px );/*calc( 128px + 30pt );*/
 	background-image: url(../media/blur.png);
 	background-size: cover;
 	background-position: 50% 50%;
