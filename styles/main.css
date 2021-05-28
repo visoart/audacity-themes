@@ -91,7 +91,8 @@ h6 {
 
 /*------------------------------------*/
 :target {
-	animation: highlight 5s ease;
+	animation: highlight 1s ease;
+	animation-iteration-count: 5;
 }
 @keyframes highlight {
 	/*0% { color: inherit; }
@@ -100,10 +101,7 @@ h6 {
 	75% { color: #ffc439; border-top: #ffc439 solid 10px; border-right: #ffc439 solid 20px; border-bottom: #ffc439 solid 10px; border-left: #ffc439 solid 20px; }
 	100% { color: inherit; }*/
 	0% {transform: scale(100%)}
-	20% {transform: scale(90%)}
-	40% {transform: scale(100%)}
-	60% {transform: scale(90%)}
-	80% {transform: scale(100%)}
+	50% {transform: scale(95%)}
 	100% {transform: scale(100%)}
 }
 
