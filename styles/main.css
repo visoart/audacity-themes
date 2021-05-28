@@ -92,6 +92,7 @@ h6 {
 /*------------------------------------*/
 :target {
 	animation: highlight 5s ease;
+	transform: translateX(20px);
 }
 @keyframes highlight {
 	0% { color: inherit; }
