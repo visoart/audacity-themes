@@ -94,11 +94,17 @@ h6 {
 	animation: highlight 5s ease;
 }
 @keyframes highlight {
-	0% { color: inherit; }
+	/*0% { color: inherit; }
 	25% { color: #ffc439; border-top: #ffc439 solid 10px; border-right: #ffc439 solid 20px; border-bottom: #ffc439 solid 10px; border-left: #ffc439 solid 20px; }
 	50% { color: inherit; }
 	75% { color: #ffc439; border-top: #ffc439 solid 10px; border-right: #ffc439 solid 20px; border-bottom: #ffc439 solid 10px; border-left: #ffc439 solid 20px; }
-	100% { color: inherit; }
+	100% { color: inherit; }*/
+	0% {scale(100%)}
+	20% {scale(90%)}
+	40% {scale(100%)}
+	60% {scale(90%)}
+	80% {scale(100%)}
+	100% {scale(100%)}
 }
 
 
