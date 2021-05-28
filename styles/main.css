@@ -90,6 +90,16 @@ h6 {
 }
 
 /*------------------------------------*/
+:target {
+	animation: highlight 1s ease;
+	transform: translateX(20px);
+}
+@keyframes highlight {
+	0% { color: inherit; }
+	50% {color: blue;}
+	100% { color: inherit; }
+}
+
 
 .content {
 	height: auto;
