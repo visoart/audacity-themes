@@ -91,12 +91,13 @@ h6 {
 
 /*------------------------------------*/
 :target {
-	animation: highlight 1s ease;
-	transform: translateX(20px);
+	animation: highlight 5s ease;
 }
 @keyframes highlight {
 	0% { color: inherit; }
-	50% {color: blue;}
+	25% { color: #aaa; border-top: #aaa solid 10px; border-right: #aaa solid 20px; border-bottom: #aaa solid 10px; border-left: #aaa solid 20px; }
+	50% { color: #inherit; }
+	75% { color: #aaa; border-top: #aaa solid 10px; border-right: #aaa solid 20px; border-bottom: #aaa solid 10px; border-left: #aaa solid 20px; }
 	100% { color: inherit; }
 }
 
