@@ -138,6 +138,7 @@ h6 {
 	padding: 0px 10%;
 	position: fixed;
 	box-sizing: border-box;
+	z-index: 1000;
 }
 .navigation-gap {
 	width: 100%;
